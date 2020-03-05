@@ -10,6 +10,13 @@ import UIKit
 
 class HistoryTableViewController: UITableViewController {
     
+   required init?(coder:NSCoder) {
+    super.init(coder:coder)
+        tabBarItem.title = "History"
+        tabBarItem.image = UIImage(named:"triangle")
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
