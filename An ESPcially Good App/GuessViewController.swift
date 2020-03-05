@@ -10,11 +10,31 @@ import UIKit
 
 class FirstViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    
+    
+       @IBOutlet weak var guessLBL:UILabel!
+       @IBOutlet weak var scoreLBL:UILabel!
+
+       override func viewDidLoad() {
+        
+           super.viewDidLoad()
+           // Do any additional setup after loading the view.
+           
+    }
+       
+       @IBAction func tappedCircle(sender:UIButton){
+    }
+       
+    @IBAction func tappedTriangle(sender:UIButton){
+    }
+    
+    @IBAction func tappedStar(sender:UIButton){
     }
 
+     
+    
+    
+    
 
 }
 

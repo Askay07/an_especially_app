@@ -15,6 +15,7 @@
 		3FE06F3B240D163800822EA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE06F3A240D163800822EA9 /* Assets.xcassets */; };
 		3FE06F3E240D163800822EA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE06F3C240D163800822EA9 /* LaunchScreen.storyboard */; };
 		3FE06F46240D16AC00822EA9 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE06F45240D16AC00822EA9 /* HistoryTableViewController.swift */; };
+		3FE06F4E24109C9000822EA9 /* Predictions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE06F4D24109C9000822EA9 /* Predictions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		3FE06F3D240D163800822EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FE06F3F240D163800822EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FE06F45240D16AC00822EA9 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		3FE06F4D24109C9000822EA9 /* Predictions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predictions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				3FE06F2F240D163600822EA9 /* AppDelegate.swift */,
 				3FE06F31240D163600822EA9 /* SceneDelegate.swift */,
 				3FE06F33240D163600822EA9 /* GuessViewController.swift */,
+				3FE06F4D24109C9000822EA9 /* Predictions.swift */,
 				3FE06F35240D163600822EA9 /* StatisticsViewController.swift */,
 				3FE06F45240D16AC00822EA9 /* HistoryTableViewController.swift */,
 				3FE06F3A240D163800822EA9 /* Assets.xcassets */,
@@ -148,6 +151,7 @@
 				3FE06F34240D163600822EA9 /* GuessViewController.swift in Sources */,
 				3FE06F46240D16AC00822EA9 /* HistoryTableViewController.swift in Sources */,
 				3FE06F30240D163600822EA9 /* AppDelegate.swift in Sources */,
+				3FE06F4E24109C9000822EA9 /* Predictions.swift in Sources */,
 				3FE06F32240D163600822EA9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
